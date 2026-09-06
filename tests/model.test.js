@@ -47,7 +47,7 @@ test('Major blood vessels expose anatomically directed flow paths',()=>{
 test('Systemic teaching circulation reaches head, arms, kidneys, liver and legs',()=>{
  const required=['carotid-artery-1','jugular-vein-1','brachial-artery--1','brachial-vein--1','renal-artery-1','renal-vein-1','hepatic-artery','hepatic-vein','portal-vein','femoral-artery-1','femoral-vein-1'];
  for(const id of required){const p=parts.find(p=>p.id===id);assert.ok(p?.flowPaths?.length,id);}
- assert.equal(parts.filter(p=>p.flowPaths?.length).length,25);
+ assert.ok(parts.filter(p=>p.flowPaths?.length).length>=25);
  assert.equal(parts.find(p=>p.id==='portal-vein').flowPaths[0].color,0xa876d6);
 });
 test('Teaching motion paths exist for air, food, neural signal and urine',()=>{

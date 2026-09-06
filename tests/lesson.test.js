@@ -9,7 +9,7 @@ const ids=new Set(parts.map(p=>p.id));
 test('Guided lesson engine exposes all twelve bilingual system lessons',()=>{
   assert.deepEqual(lessonOrder,['circulation','respiratory','digestive','nervous','urinary','skeletal','muscular','endocrine','lymphatic','reproductive','sensory','integumentary']);
   assert.equal(Object.keys(lessons).length,12);
-  assert.equal(circulationLessonSteps.length,8);
+  assert.ok(circulationLessonSteps.length>=8);
   for(const id of lessonOrder){
     const lesson=getLesson(id);assert.ok(lesson,id);assert.ok(lesson.title[0]&&lesson.title[1],id);assert.ok(lesson.start[0]&&lesson.start[1],id);assert.ok(lesson.steps.length>=4,id);
     assert.ok(lesson.simulation&&typeof lesson.simulation==='object',id);

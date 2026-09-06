@@ -2,6 +2,7 @@ import * as THREE from 'three';
 import {enrichAnatomyParts} from './anatomy-schema.js';
 import {extendAnatomyV13} from './anatomy-extensions.js';
 import {extendAnatomyV14} from './anatomy-extensions-v14.js';
+import {extendAnatomyV15} from './anatomy-extensions-v15.js';
 
 export const systems = {
  nervous:['ระบบประสาท','Nervous system','#e8b0b2'],
@@ -288,6 +289,7 @@ export function buildAnatomy(){
 
  extendAnatomyV13(root,parts,systems);
  extendAnatomyV14(root,parts,systems);
+ extendAnatomyV15(root,parts,systems);
  enrichAnatomyParts(parts);
  for(const p of parts)p.group.traverse(o=>{if(o.isMesh){o.userData.partId=p.id;o.material.userData.baseColor=o.material.color.clone();}});
  return {root,parts};
