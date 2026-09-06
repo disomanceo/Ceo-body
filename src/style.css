@@ -47,3 +47,13 @@ main{height:calc(100dvh - 58px)}
  #resultsButton{max-width:60px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.compact-header #quality{display:none}
  main{min-height:calc(100dvh - 52px)}.workspace{max-height:calc(100dvh - 52px)}
 }
+
+/* v1.6.2 — restore compact Ceo-body identity before developer credit */
+.developer-cluster{display:flex;align-items:center;gap:9px;min-width:300px}
+.ceo-mini-brand{display:flex;align-items:center;gap:6px;flex:0 0 auto;color:#eef8f8;text-decoration:none}
+.ceo-mini-icon{width:31px;height:33px;border:1px solid #55938c;border-radius:9px;display:grid;place-items:center;color:#87d7c7;position:relative;font-size:20px;font-weight:700;background:#19312f;box-shadow:0 3px 10px #0004}
+.ceo-mini-icon>span{font-size:10px;position:absolute;right:2px;bottom:2px;color:#a8e4d7}
+.ceo-mini-word{font-size:12px;font-weight:700;letter-spacing:-.3px;white-space:nowrap}.ceo-mini-word>span{font-weight:400;color:#9fb4c2}
+.compact-header .developer-cluster .developer-credit{min-width:0}
+@media(max-width:900px){.developer-cluster{min-width:205px;gap:6px}.ceo-mini-word{display:none}.ceo-mini-icon{width:27px;height:29px;font-size:17px}}
+@media(max-width:520px){.developer-cluster{min-width:135px;gap:4px}.ceo-mini-icon{width:24px;height:26px;border-radius:7px;font-size:15px}.ceo-mini-icon>span{font-size:8px}.developer-cluster .developer-credit{min-width:104px;max-width:104px}}
