@@ -1,0 +1,1616 @@
+{
+  "revision": "f0eeb6e843380cfe6b83797cf8c3e1af74de5e61",
+  "source": "https://raw.githubusercontent.com/Kevin-Mattheus-Moerman/BodyParts3D/f0eeb6e843380cfe6b83797cf8c3e1af74de5e61/",
+  "license": "CC-BY-SA-2.1-JP",
+  "mappings": [
+    [
+      "brain",
+      [
+        "FMA72669",
+        "FMA72668",
+        "FMA72667",
+        "FMA72666",
+        "FMA72665",
+        "FMA72833",
+        "FMA72670",
+        "FMA72832",
+        "FMA72831",
+        "FMA72830",
+        "FMA72655",
+        "FMA72654",
+        "FMA72656",
+        "FMA61844",
+        "FMA72801",
+        "FMA72701",
+        "FMA72804",
+        "FMA72702",
+        "FMA72705",
+        "FMA72800",
+        "FMA72661",
+        "FMA72662",
+        "FMA72706",
+        "FMA72805",
+        "FMA72689",
+        "FMA72688",
+        "FMA72687",
+        "FMA72714",
+        "FMA72713",
+        "FMA72653",
+        "FMA78450",
+        "BP50",
+        "FMA72690",
+        "FMA72718",
+        "FMA72717",
+        "BP49",
+        "FMA72828",
+        "FMA72977",
+        "FMA72827",
+        "FMA72978",
+        "FMA72829",
+        "FMA72975",
+        "FMA72976",
+        "FMA78449",
+        "FMA72826",
+        "FMA72685",
+        "FMA72686"
+      ]
+    ],
+    [
+      "cerebellum",
+      [
+        "FMA67944"
+      ]
+    ],
+    [
+      "spinal-cord",
+      [
+        "FMA78497"
+      ]
+    ],
+    [
+      "spleen",
+      [
+        "FMA7196"
+      ]
+    ],
+    [
+      "adrenal--1",
+      [
+        "FMA15629"
+      ]
+    ],
+    [
+      "adrenal-1",
+      [
+        "FMA15630"
+      ]
+    ],
+    [
+      "pituitary",
+      [
+        "FMA13889"
+      ]
+    ],
+    [
+      "thymus",
+      [
+        "FMA71195",
+        "FMA71194"
+      ]
+    ],
+    [
+      "skull",
+      [
+        "FMA52788",
+        "FMA52789",
+        "FMA52740",
+        "FMA52735",
+        "FMA52734"
+      ]
+    ],
+    [
+      "mandible",
+      [
+        "FMA52748"
+      ]
+    ],
+    [
+      "vertebra-C1",
+      [
+        "FMA12519"
+      ]
+    ],
+    [
+      "vertebra-C2",
+      [
+        "FMA12520"
+      ]
+    ],
+    [
+      "vertebra-C3",
+      [
+        "FMA12521"
+      ]
+    ],
+    [
+      "vertebra-C4",
+      [
+        "FMA12522"
+      ]
+    ],
+    [
+      "vertebra-C5",
+      [
+        "FMA12523"
+      ]
+    ],
+    [
+      "vertebra-C6",
+      [
+        "FMA12524"
+      ]
+    ],
+    [
+      "vertebra-C7",
+      [
+        "FMA12525"
+      ]
+    ],
+    [
+      "vertebra-T1",
+      [
+        "FMA9165"
+      ]
+    ],
+    [
+      "vertebra-T2",
+      [
+        "FMA9187"
+      ]
+    ],
+    [
+      "vertebra-T3",
+      [
+        "FMA9209"
+      ]
+    ],
+    [
+      "vertebra-T4",
+      [
+        "FMA9248"
+      ]
+    ],
+    [
+      "vertebra-T5",
+      [
+        "FMA9922"
+      ]
+    ],
+    [
+      "vertebra-T6",
+      [
+        "FMA9945"
+      ]
+    ],
+    [
+      "vertebra-T7",
+      [
+        "FMA9968"
+      ]
+    ],
+    [
+      "vertebra-T8",
+      [
+        "FMA9991"
+      ]
+    ],
+    [
+      "vertebra-T9",
+      [
+        "FMA10014"
+      ]
+    ],
+    [
+      "vertebra-T10",
+      [
+        "FMA10037"
+      ]
+    ],
+    [
+      "vertebra-T11",
+      [
+        "FMA10059"
+      ]
+    ],
+    [
+      "vertebra-T12",
+      [
+        "FMA10081"
+      ]
+    ],
+    [
+      "vertebra-L1",
+      [
+        "FMA13072"
+      ]
+    ],
+    [
+      "vertebra-L2",
+      [
+        "FMA13073"
+      ]
+    ],
+    [
+      "vertebra-L3",
+      [
+        "FMA13074"
+      ]
+    ],
+    [
+      "vertebra-L4",
+      [
+        "FMA13075"
+      ]
+    ],
+    [
+      "vertebra-L5",
+      [
+        "FMA13076"
+      ]
+    ],
+    [
+      "sacrum",
+      [
+        "FMA16202"
+      ]
+    ],
+    [
+      "rib--1-1",
+      [
+        "FMA7857"
+      ]
+    ],
+    [
+      "rib--1-2",
+      [
+        "FMA7882"
+      ]
+    ],
+    [
+      "rib--1-3",
+      [
+        "FMA7909"
+      ]
+    ],
+    [
+      "rib--1-4",
+      [
+        "FMA7957"
+      ]
+    ],
+    [
+      "rib--1-5",
+      [
+        "FMA8066"
+      ]
+    ],
+    [
+      "rib--1-6",
+      [
+        "FMA8175"
+      ]
+    ],
+    [
+      "rib--1-7",
+      [
+        "FMA8229"
+      ]
+    ],
+    [
+      "rib--1-8",
+      [
+        "FMA8283"
+      ]
+    ],
+    [
+      "rib--1-9",
+      [
+        "FMA8364"
+      ]
+    ],
+    [
+      "rib--1-10",
+      [
+        "FMA8445"
+      ]
+    ],
+    [
+      "rib--1-11",
+      [
+        "FMA8531"
+      ]
+    ],
+    [
+      "rib--1-12",
+      [
+        "FMA8533"
+      ]
+    ],
+    [
+      "clavicle--1",
+      [
+        "FMA13322"
+      ]
+    ],
+    [
+      "scapula--1",
+      [
+        "FMA13395"
+      ]
+    ],
+    [
+      "hip--1",
+      [
+        "FMA16586"
+      ]
+    ],
+    [
+      "humerus--1",
+      [
+        "FMA23130"
+      ]
+    ],
+    [
+      "radius--1",
+      [
+        "FMA23464"
+      ]
+    ],
+    [
+      "ulna--1",
+      [
+        "FMA23467"
+      ]
+    ],
+    [
+      "femur--1",
+      [
+        "FMA24474"
+      ]
+    ],
+    [
+      "patella--1",
+      [
+        "FMA24486"
+      ]
+    ],
+    [
+      "tibia--1",
+      [
+        "FMA24477"
+      ]
+    ],
+    [
+      "fibula--1",
+      [
+        "FMA24480"
+      ]
+    ],
+    [
+      "rib-1-1",
+      [
+        "FMA7987"
+      ]
+    ],
+    [
+      "rib-1-2",
+      [
+        "FMA8012"
+      ]
+    ],
+    [
+      "rib-1-3",
+      [
+        "FMA8039"
+      ]
+    ],
+    [
+      "rib-1-4",
+      [
+        "FMA8148"
+      ]
+    ],
+    [
+      "rib-1-5",
+      [
+        "FMA8093"
+      ]
+    ],
+    [
+      "rib-1-6",
+      [
+        "FMA8202"
+      ]
+    ],
+    [
+      "rib-1-7",
+      [
+        "FMA8256"
+      ]
+    ],
+    [
+      "rib-1-8",
+      [
+        "FMA8310"
+      ]
+    ],
+    [
+      "rib-1-9",
+      [
+        "FMA8391"
+      ]
+    ],
+    [
+      "rib-1-10",
+      [
+        "FMA8472"
+      ]
+    ],
+    [
+      "rib-1-11",
+      [
+        "FMA8532"
+      ]
+    ],
+    [
+      "rib-1-12",
+      [
+        "FMA8534"
+      ]
+    ],
+    [
+      "clavicle-1",
+      [
+        "FMA13323"
+      ]
+    ],
+    [
+      "scapula-1",
+      [
+        "FMA13396"
+      ]
+    ],
+    [
+      "hip-1",
+      [
+        "FMA16587"
+      ]
+    ],
+    [
+      "humerus-1",
+      [
+        "FMA23131"
+      ]
+    ],
+    [
+      "radius-1",
+      [
+        "FMA23465"
+      ]
+    ],
+    [
+      "ulna-1",
+      [
+        "FMA23468"
+      ]
+    ],
+    [
+      "femur-1",
+      [
+        "FMA24475"
+      ]
+    ],
+    [
+      "patella-1",
+      [
+        "FMA24487"
+      ]
+    ],
+    [
+      "tibia-1",
+      [
+        "FMA24478"
+      ]
+    ],
+    [
+      "fibula-1",
+      [
+        "FMA24481"
+      ]
+    ],
+    [
+      "sternum",
+      [
+        "FMA7488",
+        "FMA7487",
+        "FMA7486"
+      ]
+    ],
+    [
+      "rectus--1",
+      [
+        "FMA13377"
+      ]
+    ],
+    [
+      "oblique--1",
+      [
+        "FMA13336"
+      ]
+    ],
+    [
+      "latissimus--1",
+      [
+        "FMA13358"
+      ]
+    ],
+    [
+      "gluteus--1",
+      [
+        "FMA22328"
+      ]
+    ],
+    [
+      "tibialis--1",
+      [
+        "FMA22544"
+      ]
+    ],
+    [
+      "rectus-1",
+      [
+        "FMA13378"
+      ]
+    ],
+    [
+      "oblique-1",
+      [
+        "FMA13337"
+      ]
+    ],
+    [
+      "latissimus-1",
+      [
+        "FMA13359"
+      ]
+    ],
+    [
+      "gluteus-1",
+      [
+        "FMA22329"
+      ]
+    ],
+    [
+      "tibialis-1",
+      [
+        "FMA22545"
+      ]
+    ],
+    [
+      "skin",
+      [
+        "FMA7163"
+      ]
+    ]
+  ],
+  "models": [
+    {
+      "id": "FMA72669",
+      "sourceTriangles": 13172,
+      "triangles": 7557,
+      "bytes": 135908,
+      "clusteringMm": 1.15
+    },
+    {
+      "id": "FMA72667",
+      "sourceTriangles": 9782,
+      "triangles": 5419,
+      "bytes": 97484,
+      "clusteringMm": 1.15
+    },
+    {
+      "id": "FMA72668",
+      "sourceTriangles": 9778,
+      "triangles": 5309,
+      "bytes": 95516,
+      "clusteringMm": 1.15
+    },
+    {
+      "id": "FMA72666",
+      "sourceTriangles": 16858,
+      "triangles": 9401,
+      "bytes": 169136,
+      "clusteringMm": 1.15
+    },
+    {
+      "id": "FMA72833",
+      "sourceTriangles": 1736,
+      "triangles": 879,
+      "bytes": 15848,
+      "clusteringMm": 1.15
+    },
+    {
+      "id": "FMA72665",
+      "sourceTriangles": 16862,
+      "triangles": 9387,
+      "bytes": 168920,
+      "clusteringMm": 1.15
+    },
+    {
+      "id": "FMA72670",
+      "sourceTriangles": 13164,
+      "triangles": 7412,
+      "bytes": 133388,
+      "clusteringMm": 1.15
+    },
+    {
+      "id": "FMA72832",
+      "sourceTriangles": 1744,
+      "triangles": 869,
+      "bytes": 15656,
+      "clusteringMm": 1.15
+    },
+    {
+      "id": "FMA72831",
+      "sourceTriangles": 30738,
+      "triangles": 1938,
+      "bytes": 34844,
+      "clusteringMm": 1.15
+    },
+    {
+      "id": "FMA72655",
+      "sourceTriangles": 15558,
+      "triangles": 8557,
+      "bytes": 153956,
+      "clusteringMm": 1.15
+    },
+    {
+      "id": "FMA72830",
+      "sourceTriangles": 23206,
+      "triangles": 1812,
+      "bytes": 32612,
+      "clusteringMm": 1.15
+    },
+    {
+      "id": "FMA72654",
+      "sourceTriangles": 30450,
+      "triangles": 17229,
+      "bytes": 309968,
+      "clusteringMm": 1.15
+    },
+    {
+      "id": "FMA72656",
+      "sourceTriangles": 15544,
+      "triangles": 8652,
+      "bytes": 155600,
+      "clusteringMm": 1.15
+    },
+    {
+      "id": "FMA61844",
+      "sourceTriangles": 25012,
+      "triangles": 2869,
+      "bytes": 49928,
+      "clusteringMm": 1.15
+    },
+    {
+      "id": "FMA72804",
+      "sourceTriangles": 10472,
+      "triangles": 5768,
+      "bytes": 103772,
+      "clusteringMm": 1.15
+    },
+    {
+      "id": "FMA72701",
+      "sourceTriangles": 15346,
+      "triangles": 8436,
+      "bytes": 151760,
+      "clusteringMm": 1.15
+    },
+    {
+      "id": "FMA72801",
+      "sourceTriangles": 8338,
+      "triangles": 4544,
+      "bytes": 81716,
+      "clusteringMm": 1.15
+    },
+    {
+      "id": "FMA72702",
+      "sourceTriangles": 15330,
+      "triangles": 8430,
+      "bytes": 151736,
+      "clusteringMm": 1.15
+    },
+    {
+      "id": "FMA72800",
+      "sourceTriangles": 8348,
+      "triangles": 4499,
+      "bytes": 80900,
+      "clusteringMm": 1.15
+    },
+    {
+      "id": "FMA72705",
+      "sourceTriangles": 3454,
+      "triangles": 1889,
+      "bytes": 34016,
+      "clusteringMm": 1.15
+    },
+    {
+      "id": "FMA72706",
+      "sourceTriangles": 3452,
+      "triangles": 1908,
+      "bytes": 34316,
+      "clusteringMm": 1.15
+    },
+    {
+      "id": "FMA72661",
+      "sourceTriangles": 18838,
+      "triangles": 10483,
+      "bytes": 188564,
+      "clusteringMm": 1.15
+    },
+    {
+      "id": "FMA72662",
+      "sourceTriangles": 18836,
+      "triangles": 10481,
+      "bytes": 188432,
+      "clusteringMm": 1.15
+    },
+    {
+      "id": "FMA72805",
+      "sourceTriangles": 10472,
+      "triangles": 5753,
+      "bytes": 103508,
+      "clusteringMm": 1.15
+    },
+    {
+      "id": "FMA72689",
+      "sourceTriangles": 6150,
+      "triangles": 3477,
+      "bytes": 62564,
+      "clusteringMm": 1.15
+    },
+    {
+      "id": "FMA72687",
+      "sourceTriangles": 13056,
+      "triangles": 7537,
+      "bytes": 135536,
+      "clusteringMm": 1.15
+    },
+    {
+      "id": "FMA72714",
+      "sourceTriangles": 4280,
+      "triangles": 1337,
+      "bytes": 24044,
+      "clusteringMm": 1.15
+    },
+    {
+      "id": "FMA72688",
+      "sourceTriangles": 13040,
+      "triangles": 7414,
+      "bytes": 133340,
+      "clusteringMm": 1.15
+    },
+    {
+      "id": "FMA72653",
+      "sourceTriangles": 30448,
+      "triangles": 17322,
+      "bytes": 311600,
+      "clusteringMm": 1.15
+    },
+    {
+      "id": "FMA72713",
+      "sourceTriangles": 4452,
+      "triangles": 1326,
+      "bytes": 23804,
+      "clusteringMm": 1.15
+    },
+    {
+      "id": "FMA78450",
+      "sourceTriangles": 78010,
+      "triangles": 9340,
+      "bytes": 167408,
+      "clusteringMm": 1.15
+    },
+    {
+      "id": "FMA72690",
+      "sourceTriangles": 6148,
+      "triangles": 3550,
+      "bytes": 63860,
+      "clusteringMm": 1.15
+    },
+    {
+      "id": "BP50",
+      "sourceTriangles": 19926,
+      "triangles": 11087,
+      "bytes": 199472,
+      "clusteringMm": 1.15
+    },
+    {
+      "id": "FMA72718",
+      "sourceTriangles": 11724,
+      "triangles": 6583,
+      "bytes": 118448,
+      "clusteringMm": 1.15
+    },
+    {
+      "id": "FMA72717",
+      "sourceTriangles": 11716,
+      "triangles": 6560,
+      "bytes": 118076,
+      "clusteringMm": 1.15
+    },
+    {
+      "id": "BP49",
+      "sourceTriangles": 19906,
+      "triangles": 11148,
+      "bytes": 200540,
+      "clusteringMm": 1.15
+    },
+    {
+      "id": "FMA72828",
+      "sourceTriangles": 30670,
+      "triangles": 3653,
+      "bytes": 65660,
+      "clusteringMm": 1.15
+    },
+    {
+      "id": "FMA72977",
+      "sourceTriangles": 12240,
+      "triangles": 4421,
+      "bytes": 79388,
+      "clusteringMm": 1.15
+    },
+    {
+      "id": "FMA72827",
+      "sourceTriangles": 11160,
+      "triangles": 3878,
+      "bytes": 69632,
+      "clusteringMm": 1.15
+    },
+    {
+      "id": "FMA72978",
+      "sourceTriangles": 12242,
+      "triangles": 4430,
+      "bytes": 79688,
+      "clusteringMm": 1.15
+    },
+    {
+      "id": "FMA72829",
+      "sourceTriangles": 30636,
+      "triangles": 3672,
+      "bytes": 66104,
+      "clusteringMm": 1.15
+    },
+    {
+      "id": "FMA72975",
+      "sourceTriangles": 18762,
+      "triangles": 10548,
+      "bytes": 189668,
+      "clusteringMm": 1.15
+    },
+    {
+      "id": "FMA72976",
+      "sourceTriangles": 18746,
+      "triangles": 10587,
+      "bytes": 190448,
+      "clusteringMm": 1.15
+    },
+    {
+      "id": "FMA72826",
+      "sourceTriangles": 11272,
+      "triangles": 3912,
+      "bytes": 70220,
+      "clusteringMm": 1.15
+    },
+    {
+      "id": "FMA78449",
+      "sourceTriangles": 78218,
+      "triangles": 9204,
+      "bytes": 165128,
+      "clusteringMm": 1.15
+    },
+    {
+      "id": "FMA72686",
+      "sourceTriangles": 12918,
+      "triangles": 7161,
+      "bytes": 128876,
+      "clusteringMm": 1.15
+    },
+    {
+      "id": "FMA72685",
+      "sourceTriangles": 12926,
+      "triangles": 7292,
+      "bytes": 131228,
+      "clusteringMm": 1.15
+    },
+    {
+      "id": "FMA7196",
+      "sourceTriangles": 9016,
+      "triangles": 7717,
+      "bytes": 138932,
+      "clusteringMm": 1.15
+    },
+    {
+      "id": "FMA78497",
+      "sourceTriangles": 3162,
+      "triangles": 317,
+      "bytes": 5576,
+      "clusteringMm": 1.15
+    },
+    {
+      "id": "FMA15629",
+      "sourceTriangles": 9874,
+      "triangles": 2925,
+      "bytes": 52508,
+      "clusteringMm": 1.15
+    },
+    {
+      "id": "FMA15630",
+      "sourceTriangles": 19788,
+      "triangles": 5008,
+      "bytes": 89912,
+      "clusteringMm": 1.15
+    },
+    {
+      "id": "FMA13889",
+      "sourceTriangles": 5052,
+      "triangles": 651,
+      "bytes": 11732,
+      "clusteringMm": 1.15
+    },
+    {
+      "id": "FMA67944",
+      "sourceTriangles": 238506,
+      "triangles": 29143,
+      "bytes": 515936,
+      "clusteringMm": 1.15
+    },
+    {
+      "id": "FMA71194",
+      "sourceTriangles": 32268,
+      "triangles": 11766,
+      "bytes": 211184,
+      "clusteringMm": 1.15
+    },
+    {
+      "id": "FMA71195",
+      "sourceTriangles": 45944,
+      "triangles": 17517,
+      "bytes": 314768,
+      "clusteringMm": 1.15
+    },
+    {
+      "id": "FMA52788",
+      "sourceTriangles": 29734,
+      "triangles": 14123,
+      "bytes": 253724,
+      "clusteringMm": 1.15
+    },
+    {
+      "id": "FMA52740",
+      "sourceTriangles": 7774,
+      "triangles": 4424,
+      "bytes": 79532,
+      "clusteringMm": 1.15
+    },
+    {
+      "id": "FMA52789",
+      "sourceTriangles": 30250,
+      "triangles": 14447,
+      "bytes": 259496,
+      "clusteringMm": 1.15
+    },
+    {
+      "id": "FMA52748",
+      "sourceTriangles": 21658,
+      "triangles": 10868,
+      "bytes": 195464,
+      "clusteringMm": 1.15
+    },
+    {
+      "id": "FMA52735",
+      "sourceTriangles": 27812,
+      "triangles": 15629,
+      "bytes": 280940,
+      "clusteringMm": 1.15
+    },
+    {
+      "id": "FMA12519",
+      "sourceTriangles": 6172,
+      "triangles": 4040,
+      "bytes": 72584,
+      "clusteringMm": 1.15
+    },
+    {
+      "id": "FMA52734",
+      "sourceTriangles": 33062,
+      "triangles": 18570,
+      "bytes": 333920,
+      "clusteringMm": 1.15
+    },
+    {
+      "id": "FMA12520",
+      "sourceTriangles": 6870,
+      "triangles": 4388,
+      "bytes": 78824,
+      "clusteringMm": 1.15
+    },
+    {
+      "id": "FMA12522",
+      "sourceTriangles": 4224,
+      "triangles": 3035,
+      "bytes": 54524,
+      "clusteringMm": 1.15
+    },
+    {
+      "id": "FMA12521",
+      "sourceTriangles": 5278,
+      "triangles": 3481,
+      "bytes": 62528,
+      "clusteringMm": 1.15
+    },
+    {
+      "id": "FMA12523",
+      "sourceTriangles": 4754,
+      "triangles": 3268,
+      "bytes": 58736,
+      "clusteringMm": 1.15
+    },
+    {
+      "id": "FMA12525",
+      "sourceTriangles": 5222,
+      "triangles": 3711,
+      "bytes": 66656,
+      "clusteringMm": 1.15
+    },
+    {
+      "id": "FMA12524",
+      "sourceTriangles": 6350,
+      "triangles": 3988,
+      "bytes": 71660,
+      "clusteringMm": 1.15
+    },
+    {
+      "id": "FMA9165",
+      "sourceTriangles": 5614,
+      "triangles": 3968,
+      "bytes": 71372,
+      "clusteringMm": 1.15
+    },
+    {
+      "id": "FMA9187",
+      "sourceTriangles": 8360,
+      "triangles": 5191,
+      "bytes": 93428,
+      "clusteringMm": 1.15
+    },
+    {
+      "id": "FMA9209",
+      "sourceTriangles": 8910,
+      "triangles": 5458,
+      "bytes": 98144,
+      "clusteringMm": 1.15
+    },
+    {
+      "id": "FMA9248",
+      "sourceTriangles": 8930,
+      "triangles": 5466,
+      "bytes": 98264,
+      "clusteringMm": 1.15
+    },
+    {
+      "id": "FMA9922",
+      "sourceTriangles": 9834,
+      "triangles": 6011,
+      "bytes": 108080,
+      "clusteringMm": 1.15
+    },
+    {
+      "id": "FMA9945",
+      "sourceTriangles": 4896,
+      "triangles": 3893,
+      "bytes": 70076,
+      "clusteringMm": 1.15
+    },
+    {
+      "id": "FMA9968",
+      "sourceTriangles": 10740,
+      "triangles": 6737,
+      "bytes": 121184,
+      "clusteringMm": 1.15
+    },
+    {
+      "id": "FMA9991",
+      "sourceTriangles": 5206,
+      "triangles": 4162,
+      "bytes": 74864,
+      "clusteringMm": 1.15
+    },
+    {
+      "id": "FMA10014",
+      "sourceTriangles": 11286,
+      "triangles": 7324,
+      "bytes": 131768,
+      "clusteringMm": 1.15
+    },
+    {
+      "id": "FMA10037",
+      "sourceTriangles": 11928,
+      "triangles": 7566,
+      "bytes": 136040,
+      "clusteringMm": 1.15
+    },
+    {
+      "id": "FMA10059",
+      "sourceTriangles": 5652,
+      "triangles": 4445,
+      "bytes": 79952,
+      "clusteringMm": 1.15
+    },
+    {
+      "id": "FMA10081",
+      "sourceTriangles": 6038,
+      "triangles": 4792,
+      "bytes": 86228,
+      "clusteringMm": 1.15
+    },
+    {
+      "id": "FMA13072",
+      "sourceTriangles": 12946,
+      "triangles": 8053,
+      "bytes": 144776,
+      "clusteringMm": 1.15
+    },
+    {
+      "id": "FMA13073",
+      "sourceTriangles": 6946,
+      "triangles": 5485,
+      "bytes": 98720,
+      "clusteringMm": 1.15
+    },
+    {
+      "id": "FMA13074",
+      "sourceTriangles": 14750,
+      "triangles": 9120,
+      "bytes": 163976,
+      "clusteringMm": 1.15
+    },
+    {
+      "id": "FMA13075",
+      "sourceTriangles": 15426,
+      "triangles": 9406,
+      "bytes": 169196,
+      "clusteringMm": 1.15
+    },
+    {
+      "id": "FMA16202",
+      "sourceTriangles": 44416,
+      "triangles": 28339,
+      "bytes": 509756,
+      "clusteringMm": 1.15
+    },
+    {
+      "id": "FMA13076",
+      "sourceTriangles": 17282,
+      "triangles": 10631,
+      "bytes": 191192,
+      "clusteringMm": 1.15
+    },
+    {
+      "id": "FMA7857",
+      "sourceTriangles": 14194,
+      "triangles": 4437,
+      "bytes": 79568,
+      "clusteringMm": 1.15
+    },
+    {
+      "id": "FMA7882",
+      "sourceTriangles": 23694,
+      "triangles": 8047,
+      "bytes": 144476,
+      "clusteringMm": 1.15
+    },
+    {
+      "id": "FMA7909",
+      "sourceTriangles": 30860,
+      "triangles": 9855,
+      "bytes": 176936,
+      "clusteringMm": 1.15
+    },
+    {
+      "id": "FMA7957",
+      "sourceTriangles": 38488,
+      "triangles": 12653,
+      "bytes": 227288,
+      "clusteringMm": 1.15
+    },
+    {
+      "id": "FMA8175",
+      "sourceTriangles": 44634,
+      "triangles": 14670,
+      "bytes": 263672,
+      "clusteringMm": 1.15
+    },
+    {
+      "id": "FMA8066",
+      "sourceTriangles": 41634,
+      "triangles": 13775,
+      "bytes": 247532,
+      "clusteringMm": 1.15
+    },
+    {
+      "id": "FMA8229",
+      "sourceTriangles": 43146,
+      "triangles": 14323,
+      "bytes": 257396,
+      "clusteringMm": 1.15
+    },
+    {
+      "id": "FMA8283",
+      "sourceTriangles": 36646,
+      "triangles": 11735,
+      "bytes": 210848,
+      "clusteringMm": 1.15
+    },
+    {
+      "id": "FMA8445",
+      "sourceTriangles": 31010,
+      "triangles": 9698,
+      "bytes": 174248,
+      "clusteringMm": 1.15
+    },
+    {
+      "id": "FMA8364",
+      "sourceTriangles": 34278,
+      "triangles": 11247,
+      "bytes": 202088,
+      "clusteringMm": 1.15
+    },
+    {
+      "id": "FMA8531",
+      "sourceTriangles": 22428,
+      "triangles": 7241,
+      "bytes": 130064,
+      "clusteringMm": 1.15
+    },
+    {
+      "id": "FMA8533",
+      "sourceTriangles": 13262,
+      "triangles": 4372,
+      "bytes": 78512,
+      "clusteringMm": 1.15
+    },
+    {
+      "id": "FMA13322",
+      "sourceTriangles": 5112,
+      "triangles": 3950,
+      "bytes": 71120,
+      "clusteringMm": 1.15
+    },
+    {
+      "id": "FMA23130",
+      "sourceTriangles": 16268,
+      "triangles": 11939,
+      "bytes": 214880,
+      "clusteringMm": 1.15
+    },
+    {
+      "id": "FMA16586",
+      "sourceTriangles": 9716,
+      "triangles": 9227,
+      "bytes": 166100,
+      "clusteringMm": 1.15
+    },
+    {
+      "id": "FMA23464",
+      "sourceTriangles": 2804,
+      "triangles": 2528,
+      "bytes": 45536,
+      "clusteringMm": 1.15
+    },
+    {
+      "id": "FMA24474",
+      "sourceTriangles": 12990,
+      "triangles": 12017,
+      "bytes": 216332,
+      "clusteringMm": 1.15
+    },
+    {
+      "id": "FMA13395",
+      "sourceTriangles": 113256,
+      "triangles": 35157,
+      "bytes": 631976,
+      "clusteringMm": 1.15
+    },
+    {
+      "id": "FMA24486",
+      "sourceTriangles": 1334,
+      "triangles": 1146,
+      "bytes": 20660,
+      "clusteringMm": 1.15
+    },
+    {
+      "id": "FMA23467",
+      "sourceTriangles": 3592,
+      "triangles": 3096,
+      "bytes": 55760,
+      "clusteringMm": 1.15
+    },
+    {
+      "id": "FMA24477",
+      "sourceTriangles": 6850,
+      "triangles": 6336,
+      "bytes": 114080,
+      "clusteringMm": 1.15
+    },
+    {
+      "id": "FMA24480",
+      "sourceTriangles": 4622,
+      "triangles": 4021,
+      "bytes": 72404,
+      "clusteringMm": 1.15
+    },
+    {
+      "id": "FMA7987",
+      "sourceTriangles": 15464,
+      "triangles": 4540,
+      "bytes": 81500,
+      "clusteringMm": 1.15
+    },
+    {
+      "id": "FMA8039",
+      "sourceTriangles": 31212,
+      "triangles": 9664,
+      "bytes": 173588,
+      "clusteringMm": 1.15
+    },
+    {
+      "id": "FMA8012",
+      "sourceTriangles": 25304,
+      "triangles": 8198,
+      "bytes": 147284,
+      "clusteringMm": 1.15
+    },
+    {
+      "id": "FMA8148",
+      "sourceTriangles": 37922,
+      "triangles": 12252,
+      "bytes": 220208,
+      "clusteringMm": 1.15
+    },
+    {
+      "id": "FMA8093",
+      "sourceTriangles": 41568,
+      "triangles": 13826,
+      "bytes": 248360,
+      "clusteringMm": 1.15
+    },
+    {
+      "id": "FMA8202",
+      "sourceTriangles": 44434,
+      "triangles": 15050,
+      "bytes": 270368,
+      "clusteringMm": 1.15
+    },
+    {
+      "id": "FMA8256",
+      "sourceTriangles": 44062,
+      "triangles": 14597,
+      "bytes": 262160,
+      "clusteringMm": 1.15
+    },
+    {
+      "id": "FMA8391",
+      "sourceTriangles": 36020,
+      "triangles": 11165,
+      "bytes": 200672,
+      "clusteringMm": 1.15
+    },
+    {
+      "id": "FMA8310",
+      "sourceTriangles": 37134,
+      "triangles": 12108,
+      "bytes": 217508,
+      "clusteringMm": 1.15
+    },
+    {
+      "id": "FMA8472",
+      "sourceTriangles": 31758,
+      "triangles": 9998,
+      "bytes": 179672,
+      "clusteringMm": 1.15
+    },
+    {
+      "id": "FMA8532",
+      "sourceTriangles": 22826,
+      "triangles": 7185,
+      "bytes": 129044,
+      "clusteringMm": 1.15
+    },
+    {
+      "id": "FMA13323",
+      "sourceTriangles": 5140,
+      "triangles": 3968,
+      "bytes": 71432,
+      "clusteringMm": 1.15
+    },
+    {
+      "id": "FMA8534",
+      "sourceTriangles": 13726,
+      "triangles": 4507,
+      "bytes": 80972,
+      "clusteringMm": 1.15
+    },
+    {
+      "id": "FMA23131",
+      "sourceTriangles": 16492,
+      "triangles": 12191,
+      "bytes": 219452,
+      "clusteringMm": 1.15
+    },
+    {
+      "id": "FMA13396",
+      "sourceTriangles": 121816,
+      "triangles": 36379,
+      "bytes": 654152,
+      "clusteringMm": 1.15
+    },
+    {
+      "id": "FMA23465",
+      "sourceTriangles": 2714,
+      "triangles": 2438,
+      "bytes": 43916,
+      "clusteringMm": 1.15
+    },
+    {
+      "id": "FMA24475",
+      "sourceTriangles": 13202,
+      "triangles": 12233,
+      "bytes": 220220,
+      "clusteringMm": 1.15
+    },
+    {
+      "id": "FMA16587",
+      "sourceTriangles": 9470,
+      "triangles": 9030,
+      "bytes": 162548,
+      "clusteringMm": 1.15
+    },
+    {
+      "id": "FMA23468",
+      "sourceTriangles": 3538,
+      "triangles": 3082,
+      "bytes": 55508,
+      "clusteringMm": 1.15
+    },
+    {
+      "id": "FMA24487",
+      "sourceTriangles": 1338,
+      "triangles": 1188,
+      "bytes": 21416,
+      "clusteringMm": 1.15
+    },
+    {
+      "id": "FMA24478",
+      "sourceTriangles": 6822,
+      "triangles": 6330,
+      "bytes": 113972,
+      "clusteringMm": 1.15
+    },
+    {
+      "id": "FMA24481",
+      "sourceTriangles": 4544,
+      "triangles": 4012,
+      "bytes": 72248,
+      "clusteringMm": 1.15
+    },
+    {
+      "id": "FMA7488",
+      "sourceTriangles": 4086,
+      "triangles": 1335,
+      "bytes": 23960,
+      "clusteringMm": 1.15
+    },
+    {
+      "id": "FMA7487",
+      "sourceTriangles": 19916,
+      "triangles": 9526,
+      "bytes": 171248,
+      "clusteringMm": 1.15
+    },
+    {
+      "id": "FMA7486",
+      "sourceTriangles": 11882,
+      "triangles": 5677,
+      "bytes": 101984,
+      "clusteringMm": 1.15
+    },
+    {
+      "id": "FMA13377",
+      "sourceTriangles": 191206,
+      "triangles": 66886,
+      "bytes": 1190648,
+      "clusteringMm": 1.15
+    },
+    {
+      "id": "FMA13358",
+      "sourceTriangles": 227978,
+      "triangles": 117365,
+      "bytes": 2076332,
+      "clusteringMm": 1.15
+    },
+    {
+      "id": "FMA22328",
+      "sourceTriangles": 34226,
+      "triangles": 25577,
+      "bytes": 460196,
+      "clusteringMm": 1.15
+    },
+    {
+      "id": "FMA22544",
+      "sourceTriangles": 35914,
+      "triangles": 17571,
+      "bytes": 313400,
+      "clusteringMm": 1.15
+    },
+    {
+      "id": "FMA13336",
+      "sourceTriangles": 549294,
+      "triangles": 179555,
+      "bytes": 3202820,
+      "clusteringMm": 1.15
+    },
+    {
+      "id": "FMA13378",
+      "sourceTriangles": 188862,
+      "triangles": 67386,
+      "bytes": 1201136,
+      "clusteringMm": 1.15
+    },
+    {
+      "id": "FMA13337",
+      "sourceTriangles": 546370,
+      "triangles": 184119,
+      "bytes": 3284756,
+      "clusteringMm": 1.15
+    },
+    {
+      "id": "FMA22329",
+      "sourceTriangles": 33008,
+      "triangles": 25340,
+      "bytes": 455924,
+      "clusteringMm": 1.15
+    },
+    {
+      "id": "FMA22545",
+      "sourceTriangles": 34522,
+      "triangles": 17226,
+      "bytes": 308312,
+      "clusteringMm": 1.15
+    },
+    {
+      "id": "FMA13359",
+      "sourceTriangles": 227390,
+      "triangles": 117183,
+      "bytes": 2078972,
+      "clusteringMm": 1.15
+    },
+    {
+      "id": "FMA7163",
+      "sourceTriangles": 1586498,
+      "triangles": 927313,
+      "bytes": 16643852,
+      "clusteringMm": 2
+    }
+  ]
+}
