@@ -18,9 +18,13 @@ test('Anatomical laterality and organ arrangement',()=>{
 });
 test('Female and male anatomy remain separately selectable',()=>{
  const female=parts.filter(p=>p.variant==='female'),male=parts.filter(p=>p.variant==='male');
- assert.ok(female.length>=6);assert.ok(male.length>=3);
+ assert.ok(female.length>=13);assert.ok(male.length>=15);
  assert.equal(parts.find(p=>p.id==='uterus').variant,'female');
+ assert.equal(parts.find(p=>p.id==='cervix').variant,'female');
+ assert.equal(parts.find(p=>p.id==='vulva').variant,'female');
+ assert.equal(parts.find(p=>p.id==='clitoris').variant,'female');
  assert.equal(parts.find(p=>p.id==='prostate').variant,'male');
+ for(const id of ['penis','scrotum','epididymis-1','vas-deferens-1','seminal-vesicle-1','ejaculatory-duct-1','bulbourethral-1'])assert.equal(parts.find(p=>p.id===id)?.variant,'male',id);
 });
 test('Every mesh has finite geometry and maps back to a selectable structure',()=>{
  let meshes=0;const ids=new Set(parts.map(p=>p.id));

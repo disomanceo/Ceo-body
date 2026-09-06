@@ -49,6 +49,6 @@ test('Each animated guided lesson activates a distinct teaching simulation',()=>
 test('Reproductive lesson switches between female and male teaching anatomy',()=>{
   const sexes=new Set(lessons.reproductive.steps.map(s=>s.sex));
   assert.deepEqual([...sexes],['female','male']);
-  assert.ok(lessons.reproductive.steps.some(s=>s.parts.includes('uterus')));
-  assert.ok(lessons.reproductive.steps.some(s=>s.parts.includes('prostate')));
+  const covered=new Set(lessons.reproductive.steps.flatMap(s=>s.parts));
+  for(const id of ['uterus','cervix','vulva','clitoris','prostate','penis','scrotum','epididymis-1','vas-deferens-1','seminal-vesicle-1','ejaculatory-duct-1','bulbourethral-1'])assert.ok(covered.has(id),id);
 });

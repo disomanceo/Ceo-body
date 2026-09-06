@@ -142,14 +142,32 @@ export function buildAnatomy(){
  const p=part('nodes-'+region+s,'กลุ่มต่อมน้ำเหลือง'+th+(s===1?'ซ้าย':'ขวา'),(s===1?'Left ':'Right ')+region+' lymph nodes','lymphatic',[s*x,y,.2]);
  for(let i=0;i<4;i++)ell(p,[(i%2)*.08,i*.13,0],[.065,.08,.05],'#99a571');
  }
- organ('uterus','มดลูก','Uterus','reproductive',[0,7.85,.05],[.3,.39,.2],['เป็นอวัยวะที่รองรับการฝังตัวและการเจริญเติบโตของตัวอ่อน','Supports implantation and development during pregnancy.'],'#c77f91',0,.03,'female');
- const vagina=part('vagina','ช่องคลอด','Vagina','reproductive',[0,7.4,.04],undefined,'female');tube(vagina,[[0,0,0],[0,-.58,.1]],.11,'#bd8590');
+ // Female reproductive anatomy — simplified teaching geometry.
+ organ('uterus','มดลูก','Uterus','reproductive',[0,7.85,.05],[.3,.39,.2],['เป็นอวัยวะกล้ามเนื้อที่รองรับการฝังตัวและการเจริญเติบโตของตัวอ่อนระหว่างตั้งครรภ์','A muscular organ supporting implantation and development during pregnancy.'],'#c77f91',0,.03,'female');
+ organ('cervix','ปากมดลูก','Cervix','reproductive',[0,7.53,.08],[.16,.18,.14],['เป็นส่วนล่างแคบของมดลูกที่เปิดเข้าสู่ช่องคลอด และช่วยสร้างเมือกปากมดลูก','The narrow lower part of the uterus opening into the vagina and producing cervical mucus.'],'#ba7185',0,.02,'female');
+ const vagina=part('vagina','ช่องคลอด','Vagina','reproductive',[0,7.38,.08],['เป็นทางเชื่อมจากปากมดลูกสู่ภายนอก และเป็นส่วนหนึ่งของทางคลอด','A canal connecting the cervix to the exterior and forming part of the birth canal.'],'female');tube(vagina,[[0,.08,0],[0,-.52,.12]],.11,'#bd8590');
+ const vulva=part('vulva','อวัยวะเพศภายนอกหญิง','Vulva','reproductive',[0,6.82,.58],['ประกอบด้วยโครงสร้างภายนอกที่ช่วยปกป้องช่องเปิดของระบบสืบพันธุ์และทางเดินปัสสาวะ','External genital structures that help protect the openings of the reproductive and urinary tracts.'],'female');ell(vulva,[0,0,0],[.31,.23,.08],'#c99099');
+ organ('clitoris','คลิตอริส','Clitoris','reproductive',[0,7.02,.72],[.07,.055,.06],['เป็นอวัยวะที่มีปลายประสาทหนาแน่นและมีบทบาทสำคัญด้านความรู้สึกทางเพศ','A highly innervated organ important in sexual sensation.'],'#d89aa4',0,.01,'female');
  for(const s of [-1,1]){
- organ('ovary-'+s,'รังไข่'+(s===1?'ซ้าย':'ขวา'),(s===1?'Left':'Right')+' ovary','reproductive',[s*.66,7.97,.02],[.16,.1,.11],['ผลิตเซลล์ไข่และฮอร์โมนเพศ','Produces oocytes and sex hormones.'],'#c79b9d',0,.03,'female');
- const p=part('tube-'+s,'ท่อนำไข่'+(s===1?'ซ้าย':'ขวา'),(s===1?'Left':'Right')+' uterine tube','reproductive',[0,8.06,.02],undefined,'female');tube(p,[[s*.18,0,0],[s*.4,.18,0],[s*.66,.12,0],[s*.73,-.06,0]],.04,'#cc8a9a');
- organ('testis-'+s,'อัณฑะ'+(s===1?'ซ้าย':'ขวา'),(s===1?'Left':'Right')+' testis','reproductive',[s*.19,6.75,.62],[.14,.21,.14],['สร้างอสุจิและฮอร์โมนเทสโทสเตอโรน','Produces sperm and testosterone.'],'#c59c94',0,.03,'male');
+  organ('ovary-'+s,'รังไข่'+(s===1?'ซ้าย':'ขวา'),(s===1?'Left':'Right')+' ovary','reproductive',[s*.66,7.97,.02],[.16,.1,.11],['ผลิตเซลล์ไข่และฮอร์โมนเพศ','Produces oocytes and sex hormones.'],'#c79b9d',0,.03,'female');
+  const ft=part('tube-'+s,'ท่อนำไข่'+(s===1?'ซ้าย':'ขวา'),(s===1?'Left':'Right')+' uterine tube','reproductive',[0,8.06,.02],['ลำเลียงเซลล์ไข่จากบริเวณรังไข่สู่มดลูก และเป็นตำแหน่งที่การปฏิสนธิมักเกิดขึ้น','Transports the oocyte toward the uterus and is a common site of fertilization.'],'female');tube(ft,[[s*.18,0,0],[s*.4,.18,0],[s*.66,.12,0],[s*.73,-.06,0]],.04,'#cc8a9a');
+  organ('labium-majus-'+s,'แคมใหญ่'+(s===1?'ซ้าย':'ขวา'),(s===1?'Left':'Right')+' labium majus','reproductive',[s*.13,6.83,.68],[.08,.22,.06],['เป็นรอยพับผิวหนังภายนอกที่ช่วยปกป้องโครงสร้างบริเวณปากช่องคลอด','An outer skin fold that helps protect structures around the vaginal opening.'],'#c58f94',0,.01,'female');
+  organ('labium-minus-'+s,'แคมเล็ก'+(s===1?'ซ้าย':'ขวา'),(s===1?'Left':'Right')+' labium minus','reproductive',[s*.07,6.86,.73],[.04,.17,.035],['เป็นรอยพับด้านในของอวัยวะเพศภายนอกหญิงที่ล้อมรอบบริเวณปากช่องคลอดและท่อปัสสาวะ','An inner fold of the vulva surrounding the vestibular openings.'],'#d6a0a3',0,.01,'female');
  }
- organ('prostate','ต่อมลูกหมาก','Prostate','reproductive',[0,7.34,.5],[.23,.16,.2],undefined,'#bc8a7a',0,.03,'male');
+
+ // Male reproductive anatomy — simplified teaching geometry.
+ const scrotum=part('scrotum','ถุงอัณฑะ','Scrotum','reproductive',[0,6.66,.61],['เป็นถุงผิวหนังที่รองรับอัณฑะและช่วยควบคุมอุณหภูมิให้เหมาะต่อการสร้างอสุจิ','A skin sac supporting the testes and helping maintain a temperature suitable for sperm production.'],'male');ell(scrotum,[0,0,0],[.31,.34,.22],'#b98578');
+ const penis=part('penis','องคชาต','Penis','reproductive',[0,7.05,.73],['เป็นอวัยวะภายนอกที่เป็นทางออกของปัสสาวะ และนำส่งน้ำอสุจิผ่านท่อปัสสาวะในระบบสืบพันธุ์ชาย','An external organ that carries urine and conveys semen through the urethra in the male reproductive system.'],'male');tube(penis,[[0,0,0],[0,-.08,.42],[0,-.12,.85]],.13,'#bd887c');ell(penis,[0,-.12,.92],[.17,.15,.16],'#c49386');
+ organ('prostate','ต่อมลูกหมาก','Prostate','reproductive',[0,7.34,.5],[.23,.16,.2],['สร้างของเหลวส่วนหนึ่งของน้ำอสุจิ และล้อมรอบท่อปัสสาวะส่วนต้นใต้กระเพาะปัสสาวะ','Contributes fluid to semen and surrounds the proximal urethra below the bladder.'],'#bc8a7a',0,.03,'male');
+ for(const s of [-1,1]){
+  const sideTh=s===1?'ซ้าย':'ขวา',sideEn=s===1?'Left':'Right';
+  organ('testis-'+s,'อัณฑะ'+sideTh,sideEn+' testis','reproductive',[s*.19,6.69,.62],[.14,.21,.14],['สร้างอสุจิและฮอร์โมนเทสโทสเตอโรน','Produces sperm and testosterone.'],'#c59c94',0,.03,'male');
+  const epi=part('epididymis-'+s,'หลอดเก็บอสุจิ'+sideTh,sideEn+' epididymis','reproductive',[s*.3,6.72,.55],['เป็นท่อขดที่อสุจิเจริญสมบูรณ์และถูกเก็บชั่วคราวก่อนเข้าสู่ท่อนำอสุจิ','A coiled duct where sperm mature and are stored before entering the vas deferens.'],'male');tube(epi,[[0,.18,0],[s*.04,.05,.03],[0,-.18,.02]],.035,'#c7a58e');
+  const vas=part('vas-deferens-'+s,'ท่อนำอสุจิ'+sideTh,sideEn+' vas deferens','reproductive',[s*.3,6.86,.5],['ลำเลียงอสุจิจากหลอดเก็บอสุจิเข้าสู่ช่องเชิงกรานและไปยังท่อหลั่ง','Transports sperm from the epididymis into the pelvis toward the ejaculatory duct.'],'male');tube(vas,[[0,0,0],[s*.06,.45,-.08],[s*.08,.9,-.18],[-s*.12,1.25,-.23]],.035,'#caa78e');
+  organ('seminal-vesicle-'+s,'ถุงน้ำเชื้อ'+sideTh,sideEn+' seminal vesicle','reproductive',[s*.24,7.62,.25],[.12,.19,.1],['สร้างของเหลวที่มีสารอาหารและเป็นส่วนสำคัญของน้ำอสุจิ','Produces nutrient-rich fluid that forms a major component of semen.'],'#c9a178',s*.18,.05,'male');
+  const ej=part('ejaculatory-duct-'+s,'ท่อหลั่ง'+sideTh,sideEn+' ejaculatory duct','reproductive',[s*.18,7.5,.36],['ลำเลียงอสุจิและของเหลวจากถุงน้ำเชื้อผ่านต่อมลูกหมากเข้าสู่ท่อปัสสาวะ','Carries sperm and seminal-vesicle fluid through the prostate toward the urethra.'],'male');tube(ej,[[0,.08,-.08],[-s*.08,-.12,.08],[-s*.16,-.28,.16]],.025,'#c6a38d');
+  organ('bulbourethral-'+s,'ต่อมคาวเปอร์'+sideTh,sideEn+' bulbourethral gland','reproductive',[s*.12,7.1,.46],[.055,.055,.05],['หลั่งของเหลวใสช่วยหล่อลื่นและปรับสภาพท่อปัสสาวะก่อนการหลั่ง','Releases a clear secretion that lubricates and conditions the urethra before ejaculation.'],'#caa270',0,.01,'male');
+ }
  for(const s of [-1,1]){
  const side=s===1?['ซ้าย','Left']:['ขวา','Right'];
  const eye=organ('eye-'+s,'ลูกตา'+side[0],side[1]+' eye','sensory',[s*.36,16.42,.59],[.19,.19,.19],['รับแสง โดยจอตาเปลี่ยนแสงเป็นสัญญาณประสาท','Detects light; the retina converts it into neural signals.'],'#ece8dd',0,0);

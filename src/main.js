@@ -94,7 +94,7 @@ function applyAppearance(){
  }
 }
 function renderList(){
- const q=state.query.toLocaleLowerCase();const list=parts.filter(p=>(!p.variant||p.variant===state.sex)&&(state.system==='all'||p.system===state.system)&&(!q||(p.th+' '+p.en).toLocaleLowerCase().includes(q))).sort((a,b)=>Object.keys(systems).indexOf(a.system)-Object.keys(systems).indexOf(b.system));
+ const q=state.query.toLocaleLowerCase();const list=parts.filter(p=>(!p.variant||p.variant===state.sex||state.system==='reproductive'||Boolean(q))&&(state.system==='all'||p.system===state.system)&&(!q||(p.th+' '+p.en).toLocaleLowerCase().includes(q))).sort((a,b)=>Object.keys(systems).indexOf(a.system)-Object.keys(systems).indexOf(b.system));
  $('#count').textContent=tr(list.length+' ชิ้น',list.length+' parts');
  $('#partList').replaceChildren();
  if(!list.length){const e=document.createElement('p');e.className='empty';e.textContent=tr('ไม่พบชิ้นส่วนที่ค้นหา','No matching parts');$('#partList').append(e);return;}
@@ -104,7 +104,7 @@ function renderList(){
  const row=document.createElement('div');row.className='part-row'+(p.id===state.selected?' active':'');
  const selectBtn=document.createElement('button');selectBtn.className='part-name';selectBtn.innerHTML='<span class="part-dot"></span><span></span>';selectBtn.lastElementChild.textContent=title(p);selectBtn.firstElementChild.style.background=systems[p.system][2];selectBtn.onclick=()=>select(p.id);
  const eye=document.createElement('button');eye.className='eye-button';eye.textContent=visible(p)?'◉':'○';eye.title=tr('แสดง/ซ่อน ','Show/hide ')+title(p);eye.setAttribute('aria-label',eye.title);eye.setAttribute('aria-pressed',String(visible(p)));eye.onclick=()=>{
- if(visible(p)){state.hidden.add(p.id);}else{state.hidden.delete(p.id);if(p.parent)openedParent=p.parent;else if(openedParent)openedParent=null;if(p.system==='muscular')$('#muscles').checked=true;if(p.system==='skeletal')$('#bones').checked=true;if(p.system==='integumentary')$('#skin').checked=true;if(state.isolated)state.selected=p.id;}
+ if(visible(p)){state.hidden.add(p.id);}else{if(p.variant&&p.variant!==state.sex){state.sex=p.variant;$('#sex').value=state.sex;}state.hidden.delete(p.id);if(p.parent)openedParent=p.parent;else if(openedParent)openedParent=null;if(p.system==='muscular')$('#muscles').checked=true;if(p.system==='skeletal')$('#bones').checked=true;if(p.system==='integumentary')$('#skin').checked=true;if(state.isolated)state.selected=p.id;}
  update();
  };row.append(selectBtn,eye);$('#partList').append(row);
  }
@@ -128,7 +128,7 @@ function renderDetail(){
 }
 function update(){applyAppearance();renderList();renderDetail();renderSimulation();}
 function select(id){
- if(!byId.has(id))return;state.selected=id;state.hidden.delete(id);
+ if(!byId.has(id))return;const target=byId.get(id);if(target.variant&&target.variant!==state.sex){state.sex=target.variant;$('#sex').value=state.sex;}state.selected=id;state.hidden.delete(id);
  const p=selected();openedParent=p.parent||null;if(p.system==='muscular')$('#muscles').checked=true;if(p.system==='skeletal')$('#bones').checked=true;if(p.system==='integumentary')$('#skin').checked=true;
  update();
 }
