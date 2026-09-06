@@ -1,6 +1,10 @@
 # Ceo-body 1.0.0
 
 สื่อการสอนกายวิภาคมนุษย์แบบ 3 มิติ
+
+เว็บใช้งานจริง: https://ceo-body.pages.dev
+GitHub: https://github.com/disomanceo/Ceo-body
+
 โปรเจ็คในเครื่อง: D:\\AI-Workspace\\Ceo-body
 เปิด Start-Ceo-body.cmd แล้วเข้า http://localhost:5188
 ใช้ Node.js 22.12+ หรือ 24+ ตัวเปิดจะตรวจบริการเดิมก่อนและรอให้พร้อมจึงเปิดหน้าเว็บ
