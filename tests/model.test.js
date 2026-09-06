@@ -50,11 +50,12 @@ test('Systemic teaching circulation reaches head, arms, kidneys, liver and legs'
  assert.ok(parts.filter(p=>p.flowPaths?.length).length>=25);
  assert.equal(parts.find(p=>p.id==='portal-vein').flowPaths[0].color,0xa876d6);
 });
-test('Teaching motion paths exist for air, food, neural signal and urine',()=>{
+test('Teaching motion paths exist for air, food, neural signal, urine and lymph',()=>{
  const p=id=>parts.find(x=>x.id===id);
  for(const id of ['trachea','bronchus--1','bronchus-1'])assert.ok(p(id).airPath?.getLength()>0,id);
  assert.ok(p('esophagus').foodPath?.getLength()>0);
  assert.ok(p('spinal-cord').signalPath?.getLength()>0);
  for(const id of ['ureter--1','ureter-1','urethra'])assert.ok(p(id).urinePath?.getLength()>0,id);
+ for(const id of ['thoracic-duct','right-lymphatic-duct','upper-limb-lymphatics-1','lower-limb-lymphatics-1'])assert.ok(p(id).lymphPath?.getLength()>0,id);
 });
 console.log('Ceo-body: '+parts.length+' selectable structures across '+Object.keys(systems).length+' systems');

@@ -1,6 +1,6 @@
 {
   "name": "ceo-body",
-  "version": "1.6.2",
+  "version": "1.6.3",
   "private": true,
   "type": "module",
   "scripts": {
@@ -10,7 +10,8 @@
     "test": "node --test tests/*.test.js",
     "start": "node server.mjs",
     "models": "node import-models.mjs && node optimize-models.mjs",
-    "deploy": "npm run build && npx wrangler@latest pages deploy dist --project-name ceo-body --branch main"
+    "deploy": "npm run build && npx wrangler@latest pages deploy dist --project-name ceo-body --branch main",
+    "deploy:counter": "npx wrangler@latest deploy --config counter-worker/wrangler.jsonc"
   },
   "dependencies": {
     "three": "0.180.0"

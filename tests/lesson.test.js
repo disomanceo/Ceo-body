@@ -44,6 +44,7 @@ test('Each animated guided lesson activates a distinct teaching simulation',()=>
   assert.equal(lessons.digestive.simulation.gut,true);
   assert.equal(lessons.nervous.simulation.signal,true);
   assert.equal(lessons.urinary.simulation.urine,true);
+  assert.equal(lessons.lymphatic.simulation.lymph,true);
 });
 
 test('Reproductive lesson switches between female and male teaching anatomy',()=>{

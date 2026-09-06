@@ -1,4 +1,4 @@
-# Ceo-body 1.6.2
+# Ceo-body 1.6.3
 
 สื่อการสอนกายวิภาคมนุษย์แบบ 3 มิติ
 
@@ -25,17 +25,17 @@ GitHub: https://github.com/disomanceo/Ceo-body
 - Skin + Endocrine + Lymphatic v1.4: ผิวหนังแยก 12 ชิ้นรวมชั้นผิว ขน ต่อม ตัวรับ และหลอดเลือด; Endocrine กรองได้ 25 ชิ้นรวม parathyroids, adrenal cortex/medulla และ pancreatic islets; Lymphatic กรองได้ 26 ชิ้นรวม thoracic/right lymphatic ducts, cisterna chyli, tonsils, limb lymphatics, mesenteric/popliteal nodes, lacteals และ red marrow
 - Deep Pathways v1.5: Digestive 46 ชิ้นจาก oral cavity/teeth/salivary glands ถึง segmented colon/anal canal พร้อม bile/pancreatic ducts; Urinary 27 ชิ้นรวม kidney layers และ nephron; Respiratory 34 ชิ้นรวม pharynx/epiglottis/pleura/bronchioles/alveoli/sinuses; Circulatory 72 ชิ้นรวม coronary circulation, cardiac conduction, SVC/IVC และหลอดเลือดแขนขาที่สำคัญ
 - Musculoskeletal + Classroom v1.6: Muscular 64 ชิ้น เพิ่ม head/neck, rotator cuff, posture, hip/gait และ ankle muscles พร้อมหน้าที่เฉพาะมัด; Skeletal 214 ชิ้น เพิ่ม cranial/facial bones และ ilium/ischium/pubis; Quiz Bank 72 ข้อสุ่ม 5 ข้อต่อครั้ง และ Classroom Results แสดง Best%, Average%, จำนวนครั้ง, เวลาล่าสุด พร้อม Export CSV
-- ภาพเคลื่อนไหวหัวใจ ปอด/กะบังลม คลื่นบีบตัวของลำไส้ และการไหลเวียนเลือดหลัก แยกเปิดปิด หยุด/เล่น ความเร็ว 0.5/1/2 เท่า; จุดแดง = เลือดมีออกซิเจน จุดน้ำเงิน = เลือดออกซิเจนต่ำ จุดม่วง = hepatic portal flow พร้อมจังหวะ pulsatile ที่นุ่มขึ้น
+- Physiology controls v1.6.3 ครบ 8 channel ที่มี engine จริง: หัวใจ, เลือด, ปอด/กะบังลม, อาหาร/ลำไส้, อากาศ, ปัสสาวะ, สัญญาณประสาท และน้ำเหลือง; เปิด/ปิดแต่ละ channel ได้อิสระ ใช้ปุ่ม Animate/Pause และความเร็ว 0.5/1/2 เท่าร่วมกัน; จุดแดง = เลือดมีออกซิเจน จุดน้ำเงิน = เลือดออกซิเจนต่ำ จุดม่วง = hepatic portal flow พร้อมจังหวะ pulsatile ที่นุ่มขึ้น
 - วงจรเลือดเพื่อการสอนขยายถึงศีรษะ แขน ไต ตับ เชิงกราน และขา ผ่าน carotid/jugular, brachial, renal, hepatic/portal และ femoral vessels; จุดแดง/น้ำเงิน/ม่วงแสดงชนิดการไหลต่างกัน
 - Guided Lesson Engine ครบทั้ง 12 ระบบ: ไหลเวียนเลือด, หายใจ, ย่อยอาหาร, ประสาท, ทางเดินปัสสาวะ, โครงกระดูก, กล้ามเนื้อ, ต่อมไร้ท่อ, น้ำเหลือง/ภูมิคุ้มกัน, สืบพันธุ์, อวัยวะรับความรู้สึก และผิวหนัง รวม 116 ฉากสอนแบบ Step-by-step
 - แต่ละบทมี ก่อนหน้า/ถัดไป/เริ่มใหม่ + จุดลำดับกดข้ามขั้น + PageUp/PageDown + กล้อง tween แบบนุ่ม + ไฮไลต์เฉพาะโครงสร้างที่กำลังสอน และคำอธิบายไทย–อังกฤษ; Esc ปิดบทเรียน
-- สาธิตเฉพาะระบบ: อากาศสีฟ้าใน trachea/bronchi, อาหารสีเหลืองผ่าน esophagus/ลำไส้พร้อม peristalsis, สัญญาณประสาทสีเขียวตาม spinal cord, ปัสสาวะไหลตาม ureter/urethra และเลือดตามหลอดเลือดหลัก
+- สาธิตเฉพาะระบบ: อากาศสีฟ้าในทางเดินหายใจ, อาหารสีเหลืองผ่าน esophagus/ลำไส้พร้อม peristalsis, สัญญาณประสาทสีเขียวตามเส้นทาง neural, ปัสสาวะไหลตาม urinary paths, น้ำเหลืองสีเขียวอ่อนตาม lymphatic ducts/vessels และเลือดตามหลอดเลือดหลัก; เมื่อเริ่ม Guided Lesson ระบบจะตั้ง preset channel ที่เกี่ยวข้องให้อัตโนมัติ และคืนค่าการตั้งเองเมื่อออกจากบทเรียน
 - ปุ่ม 🔊 อ่านคำอธิบายขั้นปัจจุบันด้วย Web Speech API ตามภาษาที่เลือกเมื่อเบราว์เซอร์รองรับ; Lesson Engine จำสถานะก่อนเรียนและคืนระบบ/เพศ/อวัยวะ/โหมดภาพ/animation เดิมเมื่อออก
 - Auto Presentation: ปุ่ม ▶/Ⅱ ให้ระบบเดินบทเรียนอัตโนมัติทุกประมาณ 9 วินาที พร้อมกล้อง tween และหยุดอัตโนมัติเมื่อถึงขั้นสุดท้าย; ผู้สอนหยุดหรือแทรกควบคุมเองได้ตลอด
 - Quiz Engine ครบ 12 ระบบ ระบบละ 6 ข้อ รวม 72 ข้อแบบ 4 ตัวเลือก ไทย–อังกฤษ; แต่ละครั้งสุ่ม 5 ข้อไม่ซ้ำ พร้อมเฉลยอธิบายทันที สรุปคะแนน Retry แบบสุ่มใหม่ และเก็บประวัติ 30 ครั้งล่าสุดต่อระบบใน localStorage ของเครื่อง
 - Classroom Results v1.6: ปุ่ม “ผลคะแนน” สรุป Best %, Average %, จำนวนครั้ง และเวลาทำล่าสุดครบ 12 ระบบ รองรับประวัติแบบเก่า 3 ข้อกับแบบใหม่ 5 ข้อร่วมกัน พร้อม Export CSV และล้างประวัติในเครื่องได้
 - Production bundle แยก Three.js, lesson data และ quiz data เป็น chunks เพื่อลด initial bundle และตัด build warning ก้อนใหญ่
-- Header v1.6.2: เพิ่มตราโรงเรียนวัดไผ่มุ้งและชื่อ “สื่อการสอนกายวิภาคแบบโต้ตอบ ของโรงเรียนวัดไผ่มุ้ง” ตรงกลางแบบ compact; คืนเอกลักษณ์โลโก้ `C✦ Ceo-body` ไว้ด้านหน้าบล็อกผู้พัฒนา (มือถือย่อเป็น `C✦`); เครดิตผู้พัฒนามุมซ้ายใช้โทน teal เข้ากับธีม และคงความสูง header 58px desktop / 52px mobile เพื่อรักษาพื้นที่โมเดลหลัก
+- Header v1.6.3: เพิ่มตราโรงเรียนวัดไผ่มุ้งและชื่อ “สื่อการสอนกายวิภาคแบบโต้ตอบ ของโรงเรียนวัดไผ่มุ้ง” ตรงกลางแบบ compact; คืนเอกลักษณ์โลโก้ `C✦ Ceo-body` ไว้ด้านหน้าบล็อกผู้พัฒนา (มือถือย่อเป็น `C✦`); เครดิตผู้พัฒนามุมซ้ายใช้โทน teal และเพิ่มเคาน์เตอร์ผู้เข้าชมแบบ anonymous unique-browser โดยประมาณผ่าน Cloudflare Worker + D1 โดยคงความสูง header 58px desktop / 52px mobile
 - รองรับหน้าจอเล็ก เมนูเรียงใต้ภาพเมื่อใช้มือถือ
 - ใช้งานออฟไลน์ได้เมื่อมี dist พร้อมไฟล์โมเดล บริการผูกเฉพาะ 127.0.0.1
 

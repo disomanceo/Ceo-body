@@ -57,3 +57,11 @@ main{height:calc(100dvh - 58px)}
 .compact-header .developer-cluster .developer-credit{min-width:0}
 @media(max-width:900px){.developer-cluster{min-width:205px;gap:6px}.ceo-mini-word{display:none}.ceo-mini-icon{width:27px;height:29px;font-size:17px}}
 @media(max-width:520px){.developer-cluster{min-width:135px;gap:4px}.ceo-mini-icon{width:24px;height:26px;border-radius:7px;font-size:15px}.ceo-mini-icon>span{font-size:8px}.developer-cluster .developer-credit{min-width:104px;max-width:104px}}
+
+/* v1.6.3 — complete physiology controls + compact visitor counter */
+.visitor-counter{margin-top:1px;font-size:8px!important;font-weight:600!important;color:#76cdbd!important;letter-spacing:.15px;opacity:.95}
+.simulation-row{flex-wrap:nowrap;overflow-x:auto;overflow-y:hidden;scrollbar-width:thin;scrollbar-color:#355567 transparent;padding-bottom:2px}
+.simulation-row::-webkit-scrollbar{height:4px}.simulation-row::-webkit-scrollbar-thumb{background:#355567;border-radius:8px}
+.simulation-row>*{flex:0 0 auto}.sim-chip{white-space:nowrap}.sim-label{white-space:nowrap}#speed{margin-left:0;min-width:55px}
+@media(max-width:760px){.visitor-counter{font-size:6.4px!important}.simulation-row{flex-wrap:nowrap;gap:5px;margin-top:10px}.sim-chip{font-size:10px}.sim-chip input{width:12px;height:12px}.play-button{min-width:96px}.lesson-select{max-width:145px}}
+@media(max-width:520px){.visitor-counter{font-size:5.8px!important}.simulation-row{margin-left:-2px;margin-right:-2px;padding-bottom:4px}.sim-chip{font-size:9px}.lesson-select{max-width:118px}}
