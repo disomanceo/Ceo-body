@@ -92,7 +92,7 @@ export function teachingField(part,key){
 
 export function enrichAnatomyParts(parts){
   for(const part of parts){
-    part.systems=unique([part.system,...(secondarySystems[part.id]||[])]);
+    part.systems=unique([part.system,...(Array.isArray(part.systems)?part.systems:[]),...(secondarySystems[part.id]||[])]);
     const primary=part.systems[0]||part.system;
     const fallback=systemFallbacks[primary]||systemFallbacks.skeletal;
     const override=teachingOverrides[part.id]||{};

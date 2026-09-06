@@ -1,5 +1,6 @@
 import * as THREE from 'three';
 import {enrichAnatomyParts} from './anatomy-schema.js';
+import {extendAnatomyV13} from './anatomy-extensions.js';
 
 export const systems = {
  nervous:['ระบบประสาท','Nervous system','#e8b0b2'],
@@ -284,6 +285,7 @@ export function buildAnatomy(){
  p.desc=[type==='carpal'?'เป็นกระดูกข้อมือ ช่วยให้ข้อมือเคลื่อนไหวและถ่ายทอดแรงระหว่างมือกับปลายแขน':'เป็นกระดูกบริเวณข้อเท้าหรือส่วนหลังของเท้า ช่วยรับน้ำหนักและถ่ายทอดแรงขณะเดิน',type==='carpal'?'A carpal bone contributing to wrist movement and force transmission.':'A tarsal bone contributing to weight support and force transmission in the foot.'];
  }
 
+ extendAnatomyV13(root,parts,systems);
  enrichAnatomyParts(parts);
  for(const p of parts)p.group.traverse(o=>{if(o.isMesh){o.userData.partId=p.id;o.material.userData.baseColor=o.material.color.clone();}});
  return {root,parts};
