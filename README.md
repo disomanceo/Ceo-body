@@ -1,4 +1,4 @@
-# Ceo-body 1.5.0
+# Ceo-body 1.6.0
 
 สื่อการสอนกายวิภาคมนุษย์แบบ 3 มิติ
 
@@ -10,7 +10,7 @@ GitHub: https://github.com/disomanceo/Ceo-body
 ใช้ Node.js 22.12+ หรือ 24+ ตัวเปิดจะตรวจบริการเดิมก่อนและรอให้พร้อมจึงเปิดหน้าเว็บ
 
 ## ความสามารถ
-- 534 รายการรวมแบบหญิงและชาย / 12 หมวดระบบ พร้อม multi-system filtering และ metadata การสอน 4 มิติ
+- 588 รายการรวมแบบหญิงและชาย / 12 หมวดระบบ พร้อม multi-system filtering และ metadata การสอน 4 มิติ
 - ชื่อและคำอธิบายไทย–อังกฤษ ค้นได้ทั้งสองภาษา กรองระบบ เลือกชิ้น แสดง/ซ่อน; v1.2 รองรับ multi-system tagging ทำให้อวัยวะเดียวอยู่ได้หลายระบบ เช่น pancreas = digestive + endocrine, tongue = digestive + sensory, nasal cavity = respiratory + sensory และ gonads = reproductive + endocrine; ระบบสืบพันธุ์แสดงรายการทั้งชายและหญิง และเมื่อเลือกอวัยวะของอีกเพศจะสลับ Female/Male ให้อัตโนมัติ
 - Teaching metadata v1.2: ทุก selectable structure มีข้อมูลสองภาษา 4 มิติ Function / Location / Relations / Clinical note พร้อม fallback ตามระบบ และตรวจ schema อัตโนมัติ
 - หมุน ซูม แยกชิ้น ดูเฉพาะชิ้น มุมหน้า/หลัง/ข้าง คืนมุมมอง โดยกล้องคำนวณกึ่งกลางจากขอบเขตโมเดลจริงและซูมรอบจุดกึ่งกลาง; ปรับแรงหน่วง/ความไวการหมุนให้สมูท และแยกโหมดควบคุมเป็น “หมุน” กับ “เลื่อน” ชัดเจน
@@ -24,15 +24,16 @@ GitHub: https://github.com/disomanceo/Ceo-body
 - Nervous + Sensory v1.3: ระบบประสาทกรองได้ 54 ชิ้น ครอบคลุม cerebral lobes, thalamus/hypothalamus, brainstem subdivisions, cranial/autonomic/peripheral nerves และ limb plexuses; Sensory กรองได้ 43 ชิ้น ครอบคลุม cornea/iris/lens/retina/optic nerve, middle-ear ossicles, cochlea, vestibular structures, olfactory pathway และ taste buds
 - Skin + Endocrine + Lymphatic v1.4: ผิวหนังแยก 12 ชิ้นรวมชั้นผิว ขน ต่อม ตัวรับ และหลอดเลือด; Endocrine กรองได้ 25 ชิ้นรวม parathyroids, adrenal cortex/medulla และ pancreatic islets; Lymphatic กรองได้ 26 ชิ้นรวม thoracic/right lymphatic ducts, cisterna chyli, tonsils, limb lymphatics, mesenteric/popliteal nodes, lacteals และ red marrow
 - Deep Pathways v1.5: Digestive 46 ชิ้นจาก oral cavity/teeth/salivary glands ถึง segmented colon/anal canal พร้อม bile/pancreatic ducts; Urinary 27 ชิ้นรวม kidney layers และ nephron; Respiratory 34 ชิ้นรวม pharynx/epiglottis/pleura/bronchioles/alveoli/sinuses; Circulatory 72 ชิ้นรวม coronary circulation, cardiac conduction, SVC/IVC และหลอดเลือดแขนขาที่สำคัญ
+- Musculoskeletal + Classroom v1.6: Muscular 64 ชิ้น เพิ่ม head/neck, rotator cuff, posture, hip/gait และ ankle muscles พร้อมหน้าที่เฉพาะมัด; Skeletal 214 ชิ้น เพิ่ม cranial/facial bones และ ilium/ischium/pubis; Quiz Bank 72 ข้อสุ่ม 5 ข้อต่อครั้ง และ Classroom Results แสดง Best%, Average%, จำนวนครั้ง, เวลาล่าสุด พร้อม Export CSV
 - ภาพเคลื่อนไหวหัวใจ ปอด/กะบังลม คลื่นบีบตัวของลำไส้ และการไหลเวียนเลือดหลัก แยกเปิดปิด หยุด/เล่น ความเร็ว 0.5/1/2 เท่า; จุดแดง = เลือดมีออกซิเจน จุดน้ำเงิน = เลือดออกซิเจนต่ำ จุดม่วง = hepatic portal flow พร้อมจังหวะ pulsatile ที่นุ่มขึ้น
 - วงจรเลือดเพื่อการสอนขยายถึงศีรษะ แขน ไต ตับ เชิงกราน และขา ผ่าน carotid/jugular, brachial, renal, hepatic/portal และ femoral vessels; จุดแดง/น้ำเงิน/ม่วงแสดงชนิดการไหลต่างกัน
-- Guided Lesson Engine ครบทั้ง 12 ระบบ: ไหลเวียนเลือด, หายใจ, ย่อยอาหาร, ประสาท, ทางเดินปัสสาวะ, โครงกระดูก, กล้ามเนื้อ, ต่อมไร้ท่อ, น้ำเหลือง/ภูมิคุ้มกัน, สืบพันธุ์, อวัยวะรับความรู้สึก และผิวหนัง รวม 108 ฉากสอนแบบ Step-by-step
+- Guided Lesson Engine ครบทั้ง 12 ระบบ: ไหลเวียนเลือด, หายใจ, ย่อยอาหาร, ประสาท, ทางเดินปัสสาวะ, โครงกระดูก, กล้ามเนื้อ, ต่อมไร้ท่อ, น้ำเหลือง/ภูมิคุ้มกัน, สืบพันธุ์, อวัยวะรับความรู้สึก และผิวหนัง รวม 116 ฉากสอนแบบ Step-by-step
 - แต่ละบทมี ก่อนหน้า/ถัดไป/เริ่มใหม่ + จุดลำดับกดข้ามขั้น + PageUp/PageDown + กล้อง tween แบบนุ่ม + ไฮไลต์เฉพาะโครงสร้างที่กำลังสอน และคำอธิบายไทย–อังกฤษ; Esc ปิดบทเรียน
 - สาธิตเฉพาะระบบ: อากาศสีฟ้าใน trachea/bronchi, อาหารสีเหลืองผ่าน esophagus/ลำไส้พร้อม peristalsis, สัญญาณประสาทสีเขียวตาม spinal cord, ปัสสาวะไหลตาม ureter/urethra และเลือดตามหลอดเลือดหลัก
 - ปุ่ม 🔊 อ่านคำอธิบายขั้นปัจจุบันด้วย Web Speech API ตามภาษาที่เลือกเมื่อเบราว์เซอร์รองรับ; Lesson Engine จำสถานะก่อนเรียนและคืนระบบ/เพศ/อวัยวะ/โหมดภาพ/animation เดิมเมื่อออก
 - Auto Presentation: ปุ่ม ▶/Ⅱ ให้ระบบเดินบทเรียนอัตโนมัติทุกประมาณ 9 วินาที พร้อมกล้อง tween และหยุดอัตโนมัติเมื่อถึงขั้นสุดท้าย; ผู้สอนหยุดหรือแทรกควบคุมเองได้ตลอด
-- Quiz Engine ครบ 12 ระบบ ระบบละ 3 ข้อ รวม 36 ข้อแบบ 4 ตัวเลือก ไทย–อังกฤษ พร้อมเฉลยอธิบายทันที, สรุปคะแนน, Retry และเก็บคะแนนดีที่สุดไว้ใน localStorage ของเครื่อง
-- Classroom Results: ปุ่ม “ผลคะแนน” สรุป Best Score, จำนวนครั้งที่ทำ และเวลาทำล่าสุดครบ 12 ระบบ พร้อมล้างประวัติในเครื่องได้
+- Quiz Engine ครบ 12 ระบบ ระบบละ 6 ข้อ รวม 72 ข้อแบบ 4 ตัวเลือก ไทย–อังกฤษ; แต่ละครั้งสุ่ม 5 ข้อไม่ซ้ำ พร้อมเฉลยอธิบายทันที สรุปคะแนน Retry แบบสุ่มใหม่ และเก็บประวัติ 30 ครั้งล่าสุดต่อระบบใน localStorage ของเครื่อง
+- Classroom Results v1.6: ปุ่ม “ผลคะแนน” สรุป Best %, Average %, จำนวนครั้ง และเวลาทำล่าสุดครบ 12 ระบบ รองรับประวัติแบบเก่า 3 ข้อกับแบบใหม่ 5 ข้อร่วมกัน พร้อม Export CSV และล้างประวัติในเครื่องได้
 - Production bundle แยก Three.js, lesson data และ quiz data เป็น chunks เพื่อลด initial bundle และตัด build warning ก้อนใหญ่
 - รองรับหน้าจอเล็ก เมนูเรียงใต้ภาพเมื่อใช้มือถือ
 - ใช้งานออฟไลน์ได้เมื่อมี dist พร้อมไฟล์โมเดล บริการผูกเฉพาะ 127.0.0.1
@@ -63,8 +64,8 @@ Source archive เก็บซอร์สและสคริปต์ดา�
 Release zip ในเครื่องมี dist และโมเดลพร้อมใช้ ไม่ต้องติดตั้ง npm packages เพื่อเปิด
 
 ## ผลตรวจสอบ
-ผ่าน 42 automated tests: ข้อมูลสองภาษา, 12 ระบบ, multi-system schema, metadata 4 มิติ, laterality หลัก, เพศ, geometry, Nervous/Sensory depth, เส้นทางลำไส้/เลือด/อากาศ/อาหาร/สัญญาณประสาท/ปัสสาวะ, Lesson Engine 12 บท, Quiz Engine 12 ชุด/36 ข้อ, การคำนวณคะแนน, การสลับ female/male ในบทสืบพันธุ์, โหลดโมเดลละเอียด, fallback และ asset mapping ครบ
-ทดสอบในเบราว์เซอร์ครบ 12 บทและ 108 ฉาก: การสลับบทขณะเล่น, ก่อนหน้า/ถัดไป, จุดลำดับ, PageUp/PageDown, Esc, ภาษาไทย/อังกฤษ, camera tween, Auto Presentation และ Quiz flow ตั้งแต่ตอบจนสรุปคะแนน/Retry
+ผ่าน 49 automated tests: ข้อมูลสองภาษา, 12 ระบบ, multi-system schema, metadata 4 มิติ, laterality หลัก, เพศ, geometry, Nervous/Sensory/Skin/Endocrine/Lymphatic/Deep Pathway/Musculoskeletal depth, Lesson Engine 12 บท, Quiz Bank 12 ชุด/72 ข้อ + random 5, Teacher analytics/CSV, การคำนวณคะแนนข้ามรูปแบบเก่า–ใหม่, โหลดโมเดลละเอียด, fallback และ asset mapping ครบ
+ทดสอบในเบราว์เซอร์ครบ 12 บทและ 116 ฉาก: การสลับบทขณะเล่น, ก่อนหน้า/ถัดไป, จุดลำดับ, PageUp/PageDown, Esc, ภาษาไทย/อังกฤษ, camera tween, Auto Presentation และ Quiz flow ตั้งแต่ตอบจนสรุปคะแนน/Retry
 ตรวจคืนสถานะก่อนเรียน: system, sex, selected part, transparent mode และ simulation toggles กลับตรงเดิมหลังออกจากบทเรียน
 ตรวจ interaction: หมุน/เลื่อน/ซูม/Focus ใช้กึ่งกลางเดียวกัน, โหมดเลื่อนลากขึ้นลงได้โดยตรง, ปุ่มลูกศร/Shift+wheel และ gesture ลากไม่ถูกตีความเป็นการคลิกโดยไม่ตั้งใจ
 หน้าจอ 390 x 844 ไม่มี horizontal overflow, lesson panel ไม่ทับ navigation pad, Web Speech API เรียกได้ และ animation ทดสอบประมาณ 60 FPS

@@ -1,3 +1,5 @@
+import {quizExtras} from './quiz-bank-v16.js';
+
 const Q=(q,options,answer,explain)=>({q,options,answer,explain});
 
 export const quizzes={
@@ -63,5 +65,13 @@ export const quizzes={
  ]
 };
 
+for(const [id,items] of Object.entries(quizExtras))if(quizzes[id])quizzes[id].push(...items);
+
 export function getQuiz(id){return quizzes[id]||[];}
+export function createQuiz(id,count=5,random=Math.random){
+ const bank=[...getQuiz(id)],n=Math.min(count,bank.length);
+ for(let i=bank.length-1;i>0;i--){const j=Math.floor(random()*(i+1));[bank[i],bank[j]]=[bank[j],bank[i]];}
+ return bank.slice(0,n);
+}
+export function quizLength(id,count=5){return Math.min(count,getQuiz(id).length);}
 export function scoreQuiz(id,answers){const q=getQuiz(id);return q.reduce((score,item,i)=>score+(answers?.[i]===item.answer?1:0),0);}
